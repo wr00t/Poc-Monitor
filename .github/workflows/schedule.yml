@@ -32,5 +32,5 @@ jobs:
           ./search
           rm search
           git add .
-          git commit -m "Auto Update `date --rfc-3339=seconds`"
+          git commit --allow-empty -m "Auto Update `date --rfc-3339=seconds`"
           git push -f
